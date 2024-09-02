@@ -46,6 +46,7 @@
  *              - #define REGION_IN865
  *              - #define REGION_US915
  *              - #define REGION_RU864
+ *              - #define REGION_LA915
  *
  * \{
  */

@@ -323,6 +323,7 @@ void DisplayTxUpdate( LmHandlerTxParams_t *params )
             case LORAMAC_REGION_AU915:
             case LORAMAC_REGION_CN470:
             case LORAMAC_REGION_US915:
+            case LORAMAC_REGION_LA915:
             {
                 for( uint8_t i = 0; i < 5; i++)
                 {
