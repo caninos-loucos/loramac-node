@@ -172,12 +172,12 @@ PhyParam_t RegionLA915GetPhyParam( GetPhyParams_t* getPhy )
         }
         case PHY_RECEIVE_DELAY1:
         {
-            phyParam.Value = REGION_COMMON_DEFAULT_RECEIVE_DELAY1;
+            phyParam.Value = LA915_RECEIVE_DELAY1;
             break;
         }
         case PHY_RECEIVE_DELAY2:
         {
-            phyParam.Value = REGION_COMMON_DEFAULT_RECEIVE_DELAY2;
+            phyParam.Value = LA915_RECEIVE_DELAY2;
             break;
         }
         case PHY_JOIN_ACCEPT_DELAY1:
@@ -192,7 +192,7 @@ PhyParam_t RegionLA915GetPhyParam( GetPhyParams_t* getPhy )
         }
         case PHY_RETRANSMIT_TIMEOUT:
         {
-            phyParam.Value = ( REGION_COMMON_DEFAULT_RETRANSMIT_TIMEOUT + randr( -REGION_COMMON_DEFAULT_RETRANSMIT_TIMEOUT_RND, REGION_COMMON_DEFAULT_RETRANSMIT_TIMEOUT_RND ) );
+            phyParam.Value = ( LA915_RETRANSMIT_TIMEOUT + randr( -REGION_COMMON_DEFAULT_RETRANSMIT_TIMEOUT_RND, REGION_COMMON_DEFAULT_RETRANSMIT_TIMEOUT_RND ) );
             break;
         }
         case PHY_DEF_DR1_OFFSET:

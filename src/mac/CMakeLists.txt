@@ -130,6 +130,7 @@ endif()
 if(REGION_LA915 STREQUAL ON)
 set( MAC_BUILD_SOURCES
      ${MAC_BUILD_SOURCES}
+     "${CMAKE_CURRENT_SOURCE_DIR}/region/RegionBaseUS.c"
      "${CMAKE_CURRENT_SOURCE_DIR}/region/RegionLA915.c" )
 endif()
 

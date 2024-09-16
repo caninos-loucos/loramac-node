@@ -48,7 +48,7 @@ extern "C"
 /*!
  * LoRaMac maximum number of channels
  */
-#define LA915_MAX_NB_CHANNELS                       72
+#define LA915_MAX_NB_CHANNELS                       8
 
 /*!
  * Minimal datarate that can be used by the node
@@ -74,6 +74,16 @@ extern "C"
  * Default datarate used by the node
  */
 #define LA915_DEFAULT_DATARATE                      DR_0
+
+/*!
+ * Custom RX delay 1
+ */
+#define LA915_RECEIVE_DELAY1                        2000
+
+/*!
+ * Custom RX delay 2
+ */
+#define LA915_RECEIVE_DELAY2                        5000
 
 /*!
  * The minimum datarate which is used when the
@@ -140,6 +150,11 @@ extern "C"
  * Second reception window channel datarate definition.
  */
 #define LA915_RX_WND_2_DR                           DR_8
+
+/*!
+ * Retransmission timeout in ms
+ */
+#define LA915_RETRANSMIT_TIMEOUT                    5000
 
 /*
  * CLASS B
