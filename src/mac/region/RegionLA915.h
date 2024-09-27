@@ -48,7 +48,7 @@ extern "C"
 /*!
  * LoRaMac maximum number of channels
  */
-#define LA915_MAX_NB_CHANNELS                       8
+#define LA915_MAX_NB_CHANNELS                       72
 
 /*!
  * Minimal datarate that can be used by the node
