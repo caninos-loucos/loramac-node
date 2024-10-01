@@ -78,12 +78,12 @@ extern "C"
 /*!
  * Custom RX delay 1
  */
-#define LA915_RECEIVE_DELAY1                        2000
+#define LA915_RECEIVE_DELAY1                        5000
 
 /*!
  * Custom RX delay 2
  */
-#define LA915_RECEIVE_DELAY2                        5000
+#define LA915_RECEIVE_DELAY2                        6000
 
 /*!
  * The minimum datarate which is used when the
@@ -154,7 +154,7 @@ extern "C"
 /*!
  * Retransmission timeout in ms
  */
-#define LA915_RETRANSMIT_TIMEOUT                    5000
+#define LA915_RETRANSMIT_TIMEOUT                    2000
 
 /*
  * CLASS B
